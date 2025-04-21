@@ -65,7 +65,7 @@ module "aurora_db" {
   subnet_ids                  = var.private_subnet_ids
   security_group_ids          = [aws_security_group.aurora_sg.id]
   secrets_manager_name        = var.secrets_manager_db_name
-  deletion_protection         = true
+  deletion_protection         = false
   skip_final_snapshot         = false
   final_snapshot_identifier_prefix = "final"
 }
