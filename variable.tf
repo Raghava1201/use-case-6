@@ -52,5 +52,5 @@ variable "aurora_master_username" {
 
 variable "secrets_manager_db_name" {
   type    = string
-  default = "bayer-aurora-credentials-1"
+  default = "bayer-aurora-credentials-2"
 }
